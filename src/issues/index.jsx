@@ -11,7 +11,10 @@ class Issues extends Component {
     getIssues = () => {
         fetch(url
         ).then(res => res.json()
-        ).then(data => this.props.storeIssues(data))
+        ).then(data => {
+            const firstPage = data.slice(0,25)
+            this.props.storeIssues(firstPage);
+        })
     }
 
     render(){

@@ -1,6 +1,7 @@
 
 .header-wrapper{
     width:100%;
+    min-width:1205px;
     height:60px;
     background-color:#23292d;
     border:0;
@@ -15,7 +16,7 @@
     border:0;
 }
 
-.header-text{
+.header-headline{
     float:left;
     font-family:'Montserrat';
     font-size:18pt;
@@ -24,13 +25,61 @@
     margin-left:10px;
 }
 
-.header-subtext{
+.header-left-wrapper{
     float:left;
+    height:60px;
+    width:260px;
+    min-width:260px;
+    margin:0;
+    padding:0;
+}
+
+.header-middle-wrapper{
+    float:left;
+    width:calc(100% - 520px);
+    min-width:685px;
+    height:60px;
+    margin:0;
+    padding:0;
+}
+
+.header-right-wrapper{
+    float:right;
+    width:260px;
+    min-width:260px;
+    margin:0;
+    padding:0;
+}
+
+.header-top-text{
+    margin:0;
+    margin-top:7.5px;
+    padding:0;
+    text-align:center;
     color:#919b9b;
     font-family:'Montserrat';
-    font-size:11pt;
-    margin-top:30px;
-    margin-left:40px;
+    font-size:10pt;
+    text-shadow:.2px .2px #02cbff;
+}
+
+.header-bottom-text{
+    margin:0;
+    margin-top:5px;
+    padding:0;
+    text-align:center;
+    color:#919b9b;
+    font-family:'Montserrat';
+    font-size:12pt;
+}
+
+.header-right-text{
+    float:right;
+    margin:0;
+    margin-top:10px;
+    padding:0;
+    font-family:'Montserrat';
+    font-size:12pt;
+    color:white;
 }
 
 .github-text{

@@ -1,12 +1,12 @@
 import React from 'react';
-import IssuesButtons from './IssuesButtons';
 import IssuesList from './IssuesList';
 
 const IssuesBody = () =>
-    <div className='issues-body-wrapper'>
-        <IssuesButtons/>
-        <div className='divider'></div>
-        <IssuesList/>
-    </div>
+    <>
+        <div className='divider'/>
+        <div className='issues-body-wrapper'>
+            <IssuesList/>
+        </div>
+    </>
 
 export default IssuesBody;

@@ -2,25 +2,30 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import IssuesLoader from './IssuesLoader';
 import IssueCard from './IssueCard';
-import v4 from 'uuid';
 
 
 class IssuesList extends Component{
 
     renderIssues = () => {
-        return this.props.issues.map(issue=>{
-            return <IssueCard key={v4()} url={issue.url} title={issue.title}/> 
-        })
+        return <ul className='issue-cards-wrapper'>
+                    {this.props.issues.map(issue => {
+                        return <IssueCard 
+                                    url={issue.url} 
+                                    title={issue.title} 
+                                    author={issue.author}
+                                    dateCreated={issue.dateCreated}
+                                    authorType={issue.authorType}
+                                    number={issue.number} />
+                    })}
+               </ul>
     }
 
     render(){
-        console.log(this.props)
         return(
             <>
                 {this.props
-                ?this.renderIssues()
-                :<IssuesLoader />
-                }
+                    ?this.renderIssues()
+                    :<IssuesLoader />}
             </>  
         )
     }
