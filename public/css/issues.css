@@ -1,0 +1,119 @@
+.issues-outer-wrapper{
+    width:990px;
+    height:820px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.issues-header-wrapper{
+    width:100%;
+    height:120px;
+    border:0
+}
+
+.issues-body-wrapper{
+    width:100%;
+    height:700px;
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+.btn-group-wrapper{
+    width:600px;
+    height:56px;
+    border:0;
+}
+
+.open-issues-btn{
+    float:left;
+    margin-top:3px;
+    margin-left:10px;
+    height:50px;
+    width:200px;
+    border:0;
+}
+
+.black-warning-image{
+    float:left;
+    margin:0;
+    margin-top:5px;
+    padding:0;
+    border:0;
+}
+
+.black-warning-text{
+    float:left;
+    margin:0;
+    margin-left:10px;
+    margin-top:2.75px;
+    padding:0;
+    border:0;
+    font-family: 'Montserrat', sans-serif;
+    font-size:14pt;
+}
+
+.closed-issues-btn{
+    float:left;
+    margin-top:3px;
+    margin-left:10px;
+    height:50px;
+    width:200px;
+    border:0;
+}
+
+.blue-check-image{
+    float:left;
+    margin:0;
+    margin-top:5px;
+    padding:0;
+    border:0;
+}
+
+.blue-check-text{
+    float:left;
+    margin:0;
+    margin-left:10px;
+    margin-top:2.75px;
+    padding:0;
+    border:0;
+    font-family: 'Montserrat', sans-serif;
+    font-size:14pt;
+}
+
+.react-loading-wrapper{
+    width:300px;
+    height:400px;
+    margin:0;
+    padding:0;
+    border:0;
+    margin-left:330px;
+    margin-top:50px;
+}
+
+.react-loading{
+    margin:0;
+    padding:0;
+    border:0
+}
+
+.issue-row{
+    border:1px solid blue;
+    height:75px;
+}
+
+.issue-title{
+    float:left;
+    margin-top:15px;
+    font-family:'Cabin';
+    font-size:14pt;
+    text-decoration:none;
+    color:black;
+}
+
+.green-warning{
+    float:left;
+    height:25px;
+    margin-left:15px;
+    margin-top:15px;
+}
